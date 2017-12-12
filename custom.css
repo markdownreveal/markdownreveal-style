@@ -46,8 +46,8 @@
 /*********************************************
  * HEADER & FOOTER
  *********************************************/
-.reveal .header,
-.reveal .footer {
+.reveal .markdownreveal_header,
+.reveal .markdownreveal_footer {
   font-size: 0.5em;
   position: absolute !important;
   margin-left: auto !important;
@@ -60,13 +60,14 @@
   z-index: 5;
   text-align: center !important; }
 
-.reveal .footer {
+.reveal .markdownreveal_footer {
   bottom: 0em !important; }
 
-.reveal .header {
+.reveal .markdownreveal_header {
   top: 0em !important; }
 
-.reveal .footer a {
+.reveal .markdownreveal_header a,
+.reveal .markdownreveal_footer a {
   color: white; }
 
 .reveal .logo {
