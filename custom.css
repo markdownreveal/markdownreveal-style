@@ -42,6 +42,13 @@
   border: none;
   box-shadow: None; }
 
+img.emoji {
+  margin: 0px !important;
+  height: 1em;
+  font-size: 0.9em;
+  vertical-align: -0.1em;
+}
+
 
 /*********************************************
  * HEADER & FOOTER
